@@ -39,7 +39,7 @@ A LRN element
           font-family: "Sentinel A", "Sentinel B", "Vitesse A", "Vitesse B", sans-serif;
       }
     </style>
-    <div class="block-calendar-widget-block" id="calendar" hidden$="[[!__loading]]"></div>
+    <div class="block-calendar-widget-block" id="calendar"></div>
     <iron-ajax
        auto
        method="POST"
@@ -48,8 +48,7 @@ A LRN element
        url="[[calendarEndPoint]]"
        handle-as="html"
        on-response="handleResponse"
-       last-response="{{calendarData}}"
-       loading="{{__loading}}"></iron-ajax>
+       last-response="{{calendarData}}"></iron-ajax>
   </template>
   <script>
     Polymer({
