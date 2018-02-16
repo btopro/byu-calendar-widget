@@ -1,0 +1,25 @@
+{
+  "name": "materializecss-styles",
+  "description": "Some styling helpers from the materializecss project",
+  "main": "materializecss-styles.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "homepage": "https://github.com/LRNWebComponents/materializecss-styles",
+  "version": "1.1.1",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.1",
+    "commit": "f92a18dc414bb3a9298822ee4284d2f0c0ba2640"
+  },
+  "_source": "https://github.com/LRNWebComponents/materializecss-styles.git",
+  "_target": "^1.0.0",
+  "_originalSource": "LRNWebComponents/materializecss-styles"
+}
